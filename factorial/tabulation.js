@@ -3,7 +3,7 @@ function factorial(n) {
   lookups[0] = 1;
   lookups[1] = 1;
 
-  for (let i = 1; i <= n; i++) {
+  for (let i = 2; i <= n; i++) {
     lookups[i] = i * lookups[i - 1];
   }
 
