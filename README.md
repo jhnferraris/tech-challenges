@@ -1,0 +1,1 @@
+Some coding challenges for my own benefit and maybe for others out there.
