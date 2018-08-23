@@ -13,10 +13,9 @@ console.log(gcd_euclidean_division(1071, 462));
 
 function gcd_recursive(a, b) {
   if (b === 0) {
-    return b;
+    return a;
   }
-
-  return gcd_recursive(a, a % b);
+  return gcd_recursive(b, a % b);
 }
 
-console.log(gcd_euclidean_division(1071, 462));
+console.log(gcd_recursive(1071, 462));
