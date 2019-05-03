@@ -6,6 +6,7 @@ Disclaimer: Most of the solutions are not performant.
 
 * [Concurrency](concepts/concurrency.js)
 * [Currying](concepts/currying.js)
+* [Map](concepts/map.js)
 
 ## Data Structure
 
